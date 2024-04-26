@@ -14,3 +14,6 @@
     -Dsonar.sources=. \
     -Dsonar.host.url=http://yoursonarqubeinstance-address \
     -Dsonar.login=Token**
+
+  ![image](https://github.com/wskabir123/sonarqube/assets/59097785/6702e69c-9d63-4766-9f44-aa6e21412a67)
+

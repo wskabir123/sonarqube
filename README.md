@@ -1,7 +1,7 @@
 ## How to deploy SonarQube as Docker container and Scan your Project for vulnerability
 - Download docker-compose.yaml
 - Change admin credentials
-- deploy **docker compose up -d**
+- Deploy **docker compose up -d**
 - Execute this command if you want to avoid the database error in Postgres
   **docker exec -it $(docker compose ps -q db) psql -U sonartest -d postgres -c "CREATE DATABASE sonar;"**
 
